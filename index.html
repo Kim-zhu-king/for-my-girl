@@ -313,7 +313,7 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
   <section class="scene" id="s-hello">
     <div class="scene-inner">
       <p style="letter-spacing:.5em;font-size:14px;color:#d190a4">致 ·</p>
-      <div class="hello-name"><span class="deco">♡</span><span class="js-name">小哭包</span><span class="deco">♡</span></div>
+      <div class="hello-name"><span class="deco">♡</span><span class="js-nick">小哭包</span><span class="deco">♡</span></div>
       <p class="mt-16">这封信，只写给你一个人。<br>（对，说的就是你 ♡）</p>
       <div class="btn-wrap show mt-32">
         <button class="btn" id="helloBtn" type="button">准备好啦，开始吧 ▸</button>
@@ -327,9 +327,9 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
       <div class="tw-box">
         <p class="tw" data-text="有些话，当着面说我会不好意思，"></p>
         <p class="tw" data-text="所以我把它们一个字一个字地，藏进了这里。"></p>
-        <p class="tw" data-text="你总觉得自己很普通、没什么特别，"></p>
-        <p class="tw" data-text="可是你知道吗——"></p>
-        <p class="tw" data-text="在我这里，你从第一天起就是满分。"></p>
+        <p class="tw" data-text="我们不太一样——你安安静静，像一杯温水；"></p>
+        <p class="tw" data-text="我天性热烈，喜欢你这件事，藏都藏不住。"></p>
+        <p class="tw" data-text="可你安静的样子，是我心里最深的心动。"></p>
       </div>
       <p class="hint-line">点一下屏幕，可以让字写得快一点 ♡</p>
       <div class="btn-wrap" id="story1Next">
@@ -342,10 +342,10 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
   <section class="scene" id="s-story2" data-typer>
     <div class="scene-inner">
       <div class="tw-box">
-        <p class="tw" data-text="你哭鼻子的时候，我比谁都心疼；"></p>
-        <p class="tw" data-text="你笑起来的时候，我就觉得，什么都值了。"></p>
-        <p class="tw" data-text="别人都说想找一个完美的人，"></p>
-        <p class="tw" data-text="我只想找一个人——像你这样的人。"></p>
+        <p class="tw" data-text="别人说，爱要轰轰烈烈才算数；"></p>
+        <p class="tw" data-text="可我后来才明白——你的喜欢，都藏在小事里："></p>
+        <p class="tw" data-text="我说过的话，你记着；我难熬的夜，你默默陪着；"></p>
+        <p class="tw" data-text="你从来不讲，却也从来没少喜欢过我一分。"></p>
       </div>
       <p class="hint-line">点一下屏幕，可以让字写得快一点 ♡</p>
       <p id="sinceLine" style="display:none;font-size:14px;color:#c08fa4;margin-top:10px"></p>
@@ -361,10 +361,10 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
       <h2>送你四颗心 ♡</h2>
       <p class="mt-8">每一颗里都藏着一句夸你的话，戳戳看——</p>
       <div class="hearts-row" id="heartsRow">
-        <button class="heart-btn" type="button" data-line="你笑起来，是我见过最好看的天气。">💗</button>
-        <button class="heart-btn" type="button" data-line="你心软、爱哭，可你明明比谁都勇敢——眼泪擦干，又能把日子过得热气腾腾。">💗</button>
-        <button class="heart-btn" type="button" data-line="你对这个世界这么温柔，世界欠你的偏爱，就由我来补齐。">💗</button>
-        <button class="heart-btn" type="button" data-line="连你气鼓鼓的样子都可爱到犯规。这句我是认真的。">💗</button>
+        <button class="heart-btn" type="button" data-line="你的笑很轻，可我每一次都记很久。">💗</button>
+        <button class="heart-btn" type="button" data-line="你把日子过得稳稳的，让我这样的急性子，也有了想慢下来的理由。">💗</button>
+        <button class="heart-btn" type="button" data-line="你不说甜话，却把温柔都做成了实事——我全都收着，一件没落。">💗</button>
+        <button class="heart-btn" type="button" data-line="我的热烈，遇见你的安静，刚刚好。">💗</button>
       </div>
       <div class="quote-area" id="quoteArea"></div>
       <div class="btn-wrap" id="heartsNext">
@@ -407,7 +407,7 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
   <section class="scene" id="s-runaway">
     <div class="scene-inner">
       <h2>最后一个问题</h2>
-      <div class="runaway-q mt-16">要一直、一直做我的小哭包吗？</div>
+      <div class="runaway-q mt-16">要一直、一直，让我守护你吗？</div>
       <div class="runaway-row">
         <button class="btn" id="yesBtn" type="button">要 ♡</button>
         <button class="btn" id="noBtn" type="button">不要</button>
@@ -421,21 +421,23 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
   <section class="scene" id="s-letter">
     <div class="scene-inner">
       <h2>接下来，是一封正式的信</h2>
+      <p class="hint-line" style="font-size:13.5px;max-width:330px;margin-top:12px">平常我都喊你 <span class="js-nick">小哭包</span>——<br>这一次，我想认认真真地，叫一次你的名字。</p>
       <div class="flip-wrap" id="flipWrap">
         <div class="flip-inner">
           <div class="flip-face flip-front" id="flipFront">
             <div class="env">💌</div>
-            <div class="who">致 <span class="js-name">小哭包</span></div>
+            <div class="who">致 <span class="js-full">陈美诺</span></div>
             <div class="hint-line mt-8">轻触拆开</div>
           </div>
           <div class="flip-face flip-back" id="flipBack">
-            <div class="letter-head">致 <span class="js-name">小哭包</span>：</div>
+            <div class="letter-head">致 <span class="js-full">陈美诺</span>：</div>
             <p class="letter-p" data-part="1">想很认真地对你说一声：遇见你，是我这几年来最走运的事。</p>
-            <p class="letter-p" data-part="1" style="animation-delay:.15s">你爱哭，心又软，一句歌词、一部电影、一只小猫，都能让你红了眼眶；可你又偏偏很倔，受了委屈，第一反应永远是笑着说「我没事」。</p>
-            <p class="letter-p" data-part="2" style="display:none">所以我舍不得。舍不得你一个人扛，舍不得你半夜偷偷难过。以后想哭的时候，记得先来找我——天塌下来，我先帮你扛一会儿，等你不哭了，我们再一起扛。</p>
-            <p class="letter-p" data-part="2" style="display:none">我喜欢的，不是你乖、不是你懂事，就是你本身。是那个会在小事上较真、在大事上心软、把普通日子过得有温度的你。</p>
-            <p class="letter-p" data-part="3" style="display:none">往后的日子：你想哭，我递纸巾；你想笑，我逗你笑；你想撒娇，我无条件投降。</p>
-            <div class="letter-sign" data-part="3" style="display:none">—— <span class="js-from">永远站在你这边的人</span></div>
+            <p class="letter-p" data-part="1" style="animation-delay:.15s">大家都说，相爱的人，一个像火，一个像水。我大概就是那团火——喜欢上你以后，藏不住，压不下，恨不得全世界都知道我有多喜欢你。</p>
+            <p class="letter-p" data-part="2" style="display:none">而你安安静静的，连喜欢都说得轻轻浅浅。可我都看见了：我说过的话，你记着；我的情绪，你接着；我狼狈的时候，你不声不响地陪在边上。你从不邀功，可你从来没有哪一天，少喜欢过我一分。</p>
+            <p class="letter-p" data-part="2" style="display:none">你的爱像月光——不喧哗，却把我脚下的整条路都照亮了。也是从看清这一点开始，我变得贪心：我们是真的喜欢着彼此的，那就让这份喜欢，一天比一天更深一点吧。不是轰轰烈烈的那种深，是回过头看、全是细水长流的那种深。</p>
+            <p class="letter-p" data-part="3" style="display:none">我不是个完美的人：脾气急、话多、偶尔还犯笨。但有件事我特别肯定——从你走进我生活的那天起，我认真喜欢的人，就只你一个。</p>
+            <p class="letter-p" data-part="3" style="display:none">往后啊，就让我来守护你：你喜欢安静，我陪你安静；你受了委屈不想说，我就慢慢等你说；你不好意思要的偏爱，我一样一样都给。</p>
+            <div class="letter-sign" data-part="3" style="display:none">—— 永远守护你的 <span class="js-from">永远守护你的人</span></div>
           </div>
         </div>
       </div>
@@ -452,7 +454,7 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
       <p class="mt-8">用手指刮开它，有惊喜 ♡</p>
       <div class="scratch-wrap" id="scratchWrap">
         <div class="scratch-reveal">
-          <div class="big">想哭就哭，我在。</div>
+          <div class="big">往后的路，我来守护你。</div>
           <div class="sub">—— 这句话，永久有效 ♡</div>
         </div>
         <canvas id="scratchCv"></canvas>
@@ -467,14 +469,16 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
   <!-- ============ 11. 终幕星空 ============ -->
   <section class="scene night-text" id="s-finale">
     <div class="scene-inner">
-      <div class="finale-name js-name">小哭包</div>
+      <div class="finale-name js-full">陈美诺</div>
       <div class="finale-line">谢谢你，出现在我的世界里。</div>
       <div class="finale-line">喜欢你这件事，我打算做一辈子。</div>
+      <div class="finale-line">守护你这件事，也一样。</div>
       <div class="finale-heart" id="finaleHeart">💗</div>
       <div class="finale-hint">点一点夜空，放一盏心愿灯上去 ✨</div>
       <div class="finale-count">你的夜空里，已经有 <b id="lampCount">0</b> 颗小灯啦</div>
       <div class="finale-final" id="finaleFinal">
         <div class="big">往后余生，请多指教 ♡</div>
+        <div class="finale-line" style="font-size:14.5px;color:#e8c8da">喜欢是真的，守护也是真的。</div>
         <button class="btn ghost small" id="replayBtn" type="button" style="color:#ffd9e6;border-color:rgba(255,217,230,.5)">再看一遍 ♡</button>
       </div>
     </div>
@@ -491,19 +495,19 @@ p{font-size:16.5px;line-height:1.95;color:var(--ink-soft)}
 'use strict';
 
 /* ================================================================
-   ★★★ 想要改名字 / 署名 / 纪念日？先看这里（三种方式任选）★★★
-   1) 发链接时加参数（推荐，最方便）：
-        ?to=小哭包           → 把称呼换成"小哭包"
-        &from=你的名字        → 信末尾的署名
-        &since=2024-05-20    → 填上纪念日后，会多一句"在一起多少天"
-      例：  https://xxx.github.io/for-my-girl/?to=小哭包&from=爱你的我&since=2024-05-20
-   2) 直接在下面 CONFIG 里填（发送前改源文件也行）。
-   3) 什么都不填：打开后会温柔地问一句名字，现场填也可以。
+   ★★★ 改称呼 / 名字 / 署名 / 纪念日：优先用链接参数（发链接时加上即可）★★★
+     ?to=小哭包              → 平时对她的称呼（昵称，默认：小哭包）
+     ?name=陈美诺            → 信里和结尾郑重使用的名字（默认：陈美诺）
+     ?from=你的名字           → 信末尾的署名（默认：永远守护你的人）
+     ?since=2025-05-20       → 纪念日，填了会多一句"在一起多少天"
+   例：https://xxx.github.io/for-my-girl/?to=小哭包&name=陈美诺&from=你的名字&since=2025-05-20
+   不带参数时，用下面的默认值（已经把她的名字内置好了）。
    ================================================================ */
 var CONFIG = {
-  herName : "",                 // ← 她的名字/昵称（留空则用链接参数，都没有就现场问）
-  yourName: "永远站在你这边的人", // ← 信末尾的署名（留空默认这句）
-  since   : ""                  // ← 纪念日，如 "2024-05-20"（留空则不显示天数）
+  nickName: "小哭包",           // ← 平时对她的称呼（昵称）
+  herName : "陈美诺",           // ← 她的名字（信里 / 结尾郑重使用）
+  yourName: "永远守护你的人",    // ← 信末尾的署名（留空默认这句）
+  since   : ""                  // ← 纪念日，如 "2025-05-20"（留空则不显示天数）
 };
 
 /* ---------------- 基础工具 ---------------- */
@@ -515,17 +519,20 @@ function getParam(k){
   var m = location.search.match(new RegExp('[?&]'+k+'=([^&]*)'));
   return m ? decodeURIComponent(m[1]) : '';
 }
-var HER  = (getParam('to')||'').trim()  || (CONFIG.herName||'').trim();
-var FROM = (getParam('from')||'').trim()|| (CONFIG.yourName||'').trim() || '永远站在你这边的人';
+var PARAM_TO   = (getParam('to')||'').trim();      // 链接里的昵称
+var PARAM_NAME = (getParam('name')||'').trim();    // 链接里的全名
+var NICK = PARAM_TO   || (CONFIG.nickName||'').trim();              // 平时称呼
+var FULL = PARAM_NAME || (CONFIG.herName||'').trim() || NICK;       // 郑重用名（信/终幕）
+var FROM = (getParam('from')||'').trim()|| (CONFIG.yourName||'').trim() || '永远守护你的人';
 var SINCE= (getParam('since')||'').trim()|| (CONFIG.since||'').trim();
-var DEFAULT_NAME = '小哭包';   // 她一直跳过不填名字时的兜底称呼
+var DEFAULT_NAME = '小哭包';   // 兜底称呼
 
-/* 把名字/署名写进所有 .js-name / .js-from 处 */
+/* 把昵称/全名/署名写进 .js-nick / .js-full / .js-from 处 */
 function applyNames(){
-  var shown = HER || DEFAULT_NAME;
-  $all('.js-name').forEach(function(el){ el.textContent = shown; });
+  $all('.js-nick').forEach(function(el){ el.textContent = NICK || DEFAULT_NAME; });
+  $all('.js-full').forEach(function(el){ el.textContent = FULL || DEFAULT_NAME; });
   $all('.js-from').forEach(function(el){ el.textContent = FROM; });
-  if(HER){ $('#toTag').textContent = 'TO · ' + HER; }
+  if(PARAM_TO){ $('#toTag').textContent = 'TO · ' + PARAM_TO; }
   /* 纪念日天数 */
   if(SINCE){
     var d = new Date(SINCE.replace(/-/g,'/'));
@@ -700,7 +707,7 @@ try{
 /* ---------------- 封面 → 名字 ---------------- */
 $('#openBtn').addEventListener('click', function(){
   buzz(16); musicTried = true; playMusic();
-  if(HER){ go('s-hello'); } else { go('s-name'); }
+  if(NICK){ go('s-hello'); } else { go('s-name'); }
 });
 
 /* ---------------- 名字输入 ---------------- */
@@ -718,7 +725,8 @@ function submitName(){
       return;
     }
   }
-  HER = v;
+  NICK = v;
+  if(!FULL) FULL = v;
   nameTries = 0;
   applyNames();
   go('s-hello');
